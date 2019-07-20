@@ -1,12 +1,10 @@
 # kotlin-recursion-factorial
 
-Write a factorial function that takes a positive integer,  as a parameter and prints the result of N! ( N factorial).
+Write a factorial function in Kotlin that takes a positive integer,  as a parameter and prints the result of N! ( N factorial).
 
 import java.util.*
 
-
 fun factorial(n: Int): Int {
-
     return if (n > 1) {
         n * factorial(n-1)
     } else {
