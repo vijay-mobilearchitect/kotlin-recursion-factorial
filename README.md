@@ -5,6 +5,7 @@ Write a factorial function in Kotlin that takes a positive integer,  as a parame
 import java.util.*
 
 fun factorial(n: Int): Int {
+
     return if (n > 1) {
         n * factorial(n-1)
     } else {
