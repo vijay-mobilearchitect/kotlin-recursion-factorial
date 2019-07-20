@@ -2,6 +2,7 @@
 
 Write a factorial function in Kotlin that takes a positive integer,  as a parameter and prints the result of N! ( N factorial).
 
+```
 import java.util.*
 
 fun factorial(n: Int): Int {
@@ -19,6 +20,7 @@ fun main() {
     val result = factorial(n)
     println(result)
 }
+```
 
 Input :
 
@@ -27,7 +29,6 @@ n = 4
 Output :
 result = 24
 
-Explanation:
+[Recursive functions and algorithms](https://en.wikipedia.org/wiki/Recursion_(computer_science))
 
-Recursive functions and algorithms
-A common computer programming tactic is to divide a problem into sub-problems of the same type as the original, solve those sub-problems, and combine the results. This is often referred to as the divide-and-conquer method; when combined with a lookup table that stores the results of solving sub-problems (to avoid solving them repeatedly and incurring extra computation time), it can be referred to as dynamic programming or memoization. (Ref Explanation : https://en.wikipedia.org/wiki/Recursion_(computer_science))
+A common computer programming tactic is to divide a problem into sub-problems of the same type as the original, solve those sub-problems, and combine the results. This is often referred to as the divide-and-conquer method; when combined with a lookup table that stores the results of solving sub-problems (to avoid solving them repeatedly and incurring extra computation time), it can be referred to as dynamic programming or memoization.
